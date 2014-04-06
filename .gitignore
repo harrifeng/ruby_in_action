@@ -1,0 +1,16 @@
+*.class
+
+# Package Files #
+# *.jar
+*.war
+*.ear
+.idea
+src/test/
+build/
+lib/junit-4.11.jar
+out
+*.dot
+.\#*
+
+java_in_action.iml
+
