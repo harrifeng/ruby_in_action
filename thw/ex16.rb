@@ -31,3 +31,24 @@ target.write("\n")
 
 puts "And finally, we close it"
 target.close()
+
+##################################################
+# <===================OUTPUT===================> #
+# bash-3.2$ ruby ex16.rb ex16_test.txt           #
+# We'are going to erase ex16_test.txt            #
+# If you don't want that, hit CTRL-C (^C)        #
+# If you do want that, hit RETURN                #
+# ?                                              #
+# Opening the file...                            #
+# Truncating the file. Goodbye!                  #
+# Now I'm going to ask you for three lines.      #
+# line1: To all                                  #
+# line2: I say                                   #
+# line3: I need to                               #
+# I'm going to write these to the file           #
+# And finally, we close it                       #
+# bash-3.2$ cat ex16_test.txt                    #
+# To all                                         #
+# I say                                          #
+# I need to                                      #
+##################################################
